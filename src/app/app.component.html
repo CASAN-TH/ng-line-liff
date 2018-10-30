@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="text-center">
+
+    <b>ng x line liff</b>
+    <br>
+    <div class="d-flex">
+      {{userData | json}}
+    </div>
+    <div>
+      <input class="form-control" type="text" [(ngModel)]="messages">
+      <br>
+      <button class="btn btn-primary" (click)="sendMessages()">send</button>
+    </div>
+  </div>
+</div>
